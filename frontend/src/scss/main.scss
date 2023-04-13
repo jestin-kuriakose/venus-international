@@ -1,9 +1,6 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
+$primary: #dc4d5d;
 
-// Include any default variable overrides here (though functions won't be available)
-$primary: purple;
 
-@import "../../node_modules/bootstrap/scss/bootstrap"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
 
 // Then add additional custom code here

@@ -9,6 +9,7 @@ import pic1 from '../assets/pic1.jpg'
 import mech from '../assets/mech.jpg'
 import ele from '../assets/ele.jpg'
 import inst from '../assets/inst.jpg'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -42,7 +43,7 @@ const Home = () => {
                     <div class="carousel-caption">
                         <h1>Sealing & Gaskets.</h1>
                         <p>We supply Sealings and Gaskets from manufacturers around the world.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Contact Us</a></p>
+                        <p><Link to={'/contact'} class="btn btn-lg btn-primary">Contact Us</Link></p>
                     </div>
                     </div>
                 </div>

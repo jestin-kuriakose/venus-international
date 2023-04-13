@@ -4,7 +4,7 @@ import App from './App'
 import './index.css'
 import "./scss/main.css"
 // Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
