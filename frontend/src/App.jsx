@@ -1,14 +1,26 @@
 import { useState } from 'react'
+import {RouterProvider, createBrowserRouter} from "react-router-dom"
 import './App.css'
 import Home from './pages/Home'
+import Contact from './pages/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home/>
+    },
+    {
+      path: "/contact",
+      element: <Contact/>
+    }
+  ])
 
   return (
-    <div className="App">
-      <Home/>
-    </div>
+    <>
+      <RouterProvider router={router}/>
+    </>
   )
 }
 

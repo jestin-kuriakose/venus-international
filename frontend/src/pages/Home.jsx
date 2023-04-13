@@ -88,7 +88,7 @@ const Home = () => {
         </div>
 
         {/* Services Section */}
-        <div class="container px-4 py-5" id="custom-cards">
+        {/* <div class="container px-4 py-5" id="custom-cards">
             <h1 class="pb-2 border-bottom text-center fw-bold">Services</h1>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -116,7 +116,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <Footer/>
     </>

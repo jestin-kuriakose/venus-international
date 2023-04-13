@@ -1,13 +1,14 @@
 import React from 'react'
+import Logo from "../assets/venus-logo.png"
 
 const Footer = () => {
   return (
     <div class="container">
         <footer class="py-3 my-4">
-            <div className="navbar-brand">
-                {/* <img src={Logo} className="img-fluid w-25"/> */}
-                <h1 className='p-0 m-0 text-center fw-light lh-1'>VENUS</h1>
-                <h3 className='p-0 m-0 text-center fw-lighter lh-1 text-uppercase fs-6'>International</h3>
+            <div className="navbar-brand d-flex flex-column justify-content-center align-items-center">
+              <img src={Logo} className="img-fluid w-25"/>
+                {/* <h1 className='p-0 m-0 text-center fw-light lh-1'>VENUS</h1>
+                <h3 className='p-0 m-0 text-center fw-lighter lh-1 text-uppercase fs-6'>International</h3> */}
             </div>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-dark link-primary">Home</a></li>
