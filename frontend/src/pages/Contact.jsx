@@ -20,7 +20,10 @@ const Contact = () => {
                    
                     <div className="d-flex flex-column align-items-center mt-3">
                         <h3>Email</h3>
+                        <h4>For Sales:</h4>
                         <p>sales@venusintlkwt.com</p>
+                        <h4>For Engineering:</h4>
+                        <p>engg@venusintlkwt.com</p>
                     </div>
 
                 </div>
